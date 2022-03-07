@@ -8,4 +8,20 @@ BodyPix is an open-source machine learning model which allows for person and bod
 
 ## Background Blur (Bokeh Effect)
 
-This body part segmentation can be used for foreground background seperation in potrait photos, and a bokeh effect can be applied.
+This body part segmentation can be used for foreground-background seperation in potrait photos, and a bokeh effect can be applied using the resulting mask from the model.
+
+* ### Original Image
+
+![](sample/0x0.jpg)
+
+* ### Bokeh Applied
+
+![](sample/bokeh_blur.jpg)
+
+## Virtual Background
+
+Similarly, the resulting mask can also be used for replacing the background with a virtual background, which are increasingly becoming popular in online conference calls.
+
+* ### Virtual Background Applied
+
+![](sample/virtual_bg.jpg)
