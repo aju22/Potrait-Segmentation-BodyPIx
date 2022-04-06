@@ -14,7 +14,7 @@ This body part segmentation can be used for foreground-background seperation in 
 
 ![](sample/0x0.jpg)
 
-* ### Bokeh Applied
+* ### Bokeh applied using Segmentation
 
 ![](sample/bokeh_blur.jpg)
 
